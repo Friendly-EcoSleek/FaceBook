@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1263EC260A2DFB00A8F0E2 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1263EB260A2DFB00A8F0E2 /* PaymentController.swift */; };
 		4D9C8F7A2608F85000098C9B /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C8F792608F85000098C9B /* Payments.swift */; };
 		4DF3877226032CEC00040696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3877126032CEC00040696 /* AppDelegate.swift */; };
 		4DF3877426032CEC00040696 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3877326032CEC00040696 /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		10222D27322BFD44571E64DE /* Pods-Face Book login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face Book login.release.xcconfig"; path = "Target Support Files/Pods-Face Book login/Pods-Face Book login.release.xcconfig"; sourceTree = "<group>"; };
+		4D1263EB260A2DFB00A8F0E2 /* PaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
 		4D9C8F792608F85000098C9B /* Payments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payments.swift; sourceTree = "<group>"; };
 		4DF3876E26032CEC00040696 /* Face Book login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Book login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF3877126032CEC00040696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				4D9C8F792608F85000098C9B /* Payments.swift */,
+				4D1263EB260A2DFB00A8F0E2 /* PaymentController.swift */,
 			);
 			path = payemnts;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1263EC260A2DFB00A8F0E2 /* PaymentController.swift in Sources */,
 				4DF3877226032CEC00040696 /* AppDelegate.swift in Sources */,
 				4DF3877426032CEC00040696 /* SceneDelegate.swift in Sources */,
 				4D9C8F7A2608F85000098C9B /* Payments.swift in Sources */,
