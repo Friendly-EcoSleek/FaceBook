@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "new_beneficiaries_1@x-1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "new_beneficiaries_2@x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "new_beneficiaries_32x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

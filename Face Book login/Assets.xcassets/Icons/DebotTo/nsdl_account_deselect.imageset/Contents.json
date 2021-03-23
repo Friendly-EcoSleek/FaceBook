@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "nsdl_account_deselect_18_1@x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "nsdl_account_deselect_36_3@x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "nsdl_account_deselect_54_3@x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
