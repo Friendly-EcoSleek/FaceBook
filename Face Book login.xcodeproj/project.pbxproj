@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D1263EC260A2DFB00A8F0E2 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1263EB260A2DFB00A8F0E2 /* PaymentController.swift */; };
 		4D9C8F7A2608F85000098C9B /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C8F792608F85000098C9B /* Payments.swift */; };
+		4DB096B4260B5FE4006D1EE2 /* ScratchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB096B3260B5FE4006D1EE2 /* ScratchCard.swift */; };
 		4DF3877226032CEC00040696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3877126032CEC00040696 /* AppDelegate.swift */; };
 		4DF3877426032CEC00040696 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3877326032CEC00040696 /* SceneDelegate.swift */; };
 		4DF3877626032CEC00040696 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3877526032CEC00040696 /* ContentView.swift */; };
@@ -23,6 +24,7 @@
 		10222D27322BFD44571E64DE /* Pods-Face Book login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face Book login.release.xcconfig"; path = "Target Support Files/Pods-Face Book login/Pods-Face Book login.release.xcconfig"; sourceTree = "<group>"; };
 		4D1263EB260A2DFB00A8F0E2 /* PaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
 		4D9C8F792608F85000098C9B /* Payments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payments.swift; sourceTree = "<group>"; };
+		4DB096B3260B5FE4006D1EE2 /* ScratchCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCard.swift; sourceTree = "<group>"; };
 		4DF3876E26032CEC00040696 /* Face Book login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Book login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF3877126032CEC00040696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DF3877326032CEC00040696 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 			path = payemnts;
 			sourceTree = "<group>";
 		};
+		4DB096B2260B5FA3006D1EE2 /* Scratch Card */ = {
+			isa = PBXGroup;
+			children = (
+				4DB096B3260B5FE4006D1EE2 /* ScratchCard.swift */,
+			);
+			path = "Scratch Card";
+			sourceTree = "<group>";
+		};
 		4DF3876526032CEC00040696 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 				4DF3877326032CEC00040696 /* SceneDelegate.swift */,
 				4DF3877526032CEC00040696 /* ContentView.swift */,
 				4D9C8F772608F80600098C9B /* payemnts */,
+				4DB096B2260B5FA3006D1EE2 /* Scratch Card */,
 				4DF3877726032CF300040696 /* Assets.xcassets */,
 				4DF3877C26032CF300040696 /* LaunchScreen.storyboard */,
 				4DF3877F26032CF300040696 /* Info.plist */,
@@ -231,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB096B4260B5FE4006D1EE2 /* ScratchCard.swift in Sources */,
 				4D1263EC260A2DFB00A8F0E2 /* PaymentController.swift in Sources */,
 				4DF3877226032CEC00040696 /* AppDelegate.swift in Sources */,
 				4DF3877426032CEC00040696 /* SceneDelegate.swift in Sources */,

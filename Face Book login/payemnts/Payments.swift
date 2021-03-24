@@ -73,7 +73,7 @@ struct Payments: View {
                     Color.gray
                         .opacity(0.1)
                         .frame(width: UIScreen.main.bounds.width-22)
-                    ScrollView(.vertical){
+                    ScrollView(.vertical, showsIndicators: false) {
                         VStack{
                             ZStack(alignment: .leading){
                                 Color.gray
